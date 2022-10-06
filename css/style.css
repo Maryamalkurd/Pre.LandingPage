@@ -1,0 +1,80 @@
+body{
+  margin:0 50px 50px 50px;
+  border: 1px solid black;
+}
+header{
+  background-color: black;
+  background-size: cover;
+  height: 600px;
+  border-radius: 0% 0% 61% 66% / 10% 10% 73% 62% ;
+}
+  
+span{
+  color: #EAB543;
+}
+header h3{
+  color:#EAB543; 
+}
+main img{
+  width: 100%;
+  height: 400px;
+
+}
+.three{
+  background-color: #EAB543;
+}
+.three img{
+  height: 400px;
+}
+.three p{
+  font-size: 14px;
+  margin: 70px 0;
+}
+.four p{
+  font-size: 14px;
+  margin: 70px 0;
+}
+.four img{
+  height: 400px;
+  
+}
+@media (min-width: 600px){
+  .four img{
+    margin: 20px 0;
+  }
+}
+.story{
+  text-align: right;
+}
+.contact i:hover {
+  transform: rotateY(180deg) scaleX(-1);
+}
+.five{
+  background-color:#EAB543; 
+}
+.six{
+  text-align: right;
+  margin: 50px 0;
+}
+
+footer{
+    background-color: black;
+    padding: 50px 0;
+    border-radius: 43% 39% 100% 100% / 100% 100% 0% 0%  ;
+}
+footer ul li:hover{
+    color:#EAB543; 
+}
+footer ul li:first-child{
+    color:#EAB543; 
+}
+footer hr{
+    color:#341f97;
+    font-size: 5px; 
+}
+footer h3{
+    padding: 10px;
+}
+footer h3:hover{
+border-bottom: 5px solid #EAB543;
+}
